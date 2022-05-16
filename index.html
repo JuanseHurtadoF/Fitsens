@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mejora tu condición física, define tu cuerpo y conviértete en la mejor versión de ti en el mejor Fitness Studio de la ciudad.
+    ">
+
+    <!-- Fav icons -->
+    <link rel="icon" href="./recursos/icon/fav-icon-512.ico">
+    <link rel="apple-touch-icon" href="./recursos/icon/apple-touch-icon.png">
+
+
+    <!-- Embed Kodchasan Alternates font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Embed Montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">    
+
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/queries.css">
+
+    <!-- Link JS file -->
+    <script defer src="js/script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JZZQG13P6B"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JZZQG13P6B');
+    </script>
+
+    
+    <title>Fitsens | Fitness Studio</title>
+</head>
+<body>
+    <main>
+        <div class="nav-hero">
+            <!-- NAV -->
+            <header class="header">
+                <a href="#">
+                    <img class="logo" src="../recursos/logos/logo2.png" alt="Omnifood logo">
+                </a>
+                
+                <nav class="main-nav">
+                    <ul class="main-nav-list">
+                        <li><a class="main-nav-link smooth" href="#owner-section">Sobre Nosotros</a></li>
+                        <li><a class="main-nav-link smooth" href="#product-section">Productos</a></li>
+                        <li><a class="main-nav-link smooth" href="#pricing-section">Precios</a></li>
+                        <!-- <li><a class="main-nav-link smooth" href="#testimonials-section">Testimoniales</a></li> -->
+                        <li><a class="main-nav-link nav-cta smooth" href="#contact-section">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="btn-mobile-nav">
+                    <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+                    <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+                </button>
+            </header>
+            <!-- HERO SECTION -->
+            <section class="section-hero">
+                <div class="hero-main">
+                    <div class="hero-text-box">
+                        <h1 class="heading-primary">Fits you well</h1>
+                        <p class="hero-description">Mejora tu condición física, define tu cuerpo y conviértete en la mejor versión de ti en el mejor Fitness Studio de la ciudad.
+                        </p>
+                        <a href="#product-section" class="btn btn--full margin-right-sm smooth">Conoce más</a>
+                        <!-- <a href="#" class="btn btn--outline">Learn more &rarr;</a> -->
+                    </div>
+                    <div class="hero-login">
+                        <p class="login-text">¿Ya eres miembro? <a target="_blank" href="https://crosshero.com/athletes/sign_in" class="login-link">Agenda tus clases aquí</a></p>
+                    </div>
+                </div>
+            </section> 
+        </div>
+
+        <!-- SECTION FEATURES -->
+        <section class="features-section">
+            <h2 class="heading-secondary border-left">El espacio que te mereces</h2>
+            <div class="features-container grid grid--4-cols">
+
+                <!-- Feature 1 -->
+                <div class="feature">
+                    <div class="feature-img-container">
+                        <!-- <ion-icon class="feature-icon" name="home-outline"></ion-icon> -->
+                        <img class="feature-img" src="../recursos/features/instalaciones.jpg">
+                    </div>
+                    <div class="feature-text">
+                        <p class="feature-title">Instalaciones</p>
+                        <p class="feature-description">Espacio renovado y diseñado para cumplir tus expectativas.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature">
+                    <div class="feature-img-container">
+                        <img class="feature-img" src="../recursos/features/equipos.jpg">
+                    </div>
+                    <div class="feature-text">
+                        <p class="feature-title">Equipos</p>
+                        <p class="feature-description">La oferta de equipos más completa para todos los niveles.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature">
+                    <div class="feature-img-container">
+                        <img class="feature-img" src="../recursos/features/entrenamientos.jpg">
+                    </div>
+                    <div class="feature-text">
+                        <p class="feature-title">Entrenamientos</p>
+                        <p class="feature-description">Diseñados para optimizar tiempo y rendimiento, y cuidar tu cuerpo. </p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature">
+                    <div class="feature-img-container">
+                        <img class="feature-img" src="../recursos/features/coaches.jpg">
+                    </div>
+                    <div class="feature-text">
+                        <p class="feature-title">Coaches</p>
+                        <p class="feature-description">Los mejores entrenadores, preocupados por tu desarrollo y bienestar.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- OWNER SECTION -->
+        <div class="owner-section" id="owner-section">
+            <h2 class="heading-secondary border-left">Sobre nosotros</h2>
+            <div class="container--owner">
+                <div class="grid owner-grid">
+                    <div class="owner-text-box">
+                        <p class="owner-text">Somos un Fitness Studio que nace para ser una alternativa a aquellas personas interesadas en sentirse y verse mejor, un espacio de primer nivel, con protocolos de entrenamiento eficientes y efectivos, que te ayudan a conseguir tus objetivos.</p>
+
+                        <p class="owner-text">Queremos ayudar a nuestros clientes a comprometerse con incorporar el ejercicio en su rutina diaria, y que vean los resultados que pueden obtener. Sin importar tu estado físico actual y menos aún tu edad, aquí vas a encontrar un espacio y un equipo humano que se preocupa por ti. Ese es nuestro compromiso.
+                        </p>
+
+                        <p class="owner-text">Tengo 51 años y me siento mejor que nunca. Estoy convencido de que con los protocolos de entrenamientos correctos, todos mis clientes pueden alcanzar sus objetivos.</p>
+
+                        <p class="owner-text">Te espero en el gimnasio.
+                        </p>
+
+                        <p class="owner-name">&ndash; Andrés Casal, Head Coach y Fundador de Fitsens</p>
+                    </div>
+                    <div class="owner-image-container">
+                        <!-- <img class="owner-image" src="../recursos/casal2.jpeg"> -->
+                    </div>
+                    <!-- .svg quote icon -->
+                    <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="quote-icon" viewBox="0 0 16 16">
+                    <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+                  </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRODUCT SECTION -->
+        <section class="products-section"  id="product-section">
+            <div class="container container--center">
+                <h2 class="heading-secondary border-bottom">Programas que se adaptan a ti</h2>
+            </div>
+
+            <div class="products container--product grid grid--products">
+                
+                <!-- Product #1 -->
+                    <div class="container product-container product--fit60">
+                        <div class="product grid--product">
+                                <!-- <img class="product-image" src="../recursos/prueba7.jpg" /> -->
+                            <div class="product-text">
+                                
+                                <h3 class="product-name">Fit60</h3>
+                                <div class="tags">
+                                    <span class="tag tag--intensidad">Intensidad</span>
+                                    <span class="tag tag--movilidad">Movilidad</span>
+                                    <span class="tag tag--fuerza">Fuerza</span>
+                                </div>
+                                <p class="product-highlight">Sistema de entrenamiento basado en ejercicios funcionales de mediana y alta intensidad, integrado con ejercicios de movilidad. Incluye sección de calentamiento, workout y estiramiento. 
+                                </p>
+                                <div class="product-details">
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="calendar-clear-outline"></ion-icon>
+                                        <p>Lunes a viernes</p>
+                                    </div>
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        <p>50-60 minutos</p>
+                                    </div>
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="shuffle-outline"></ion-icon>
+                                        <p>Programación dinámica</p>
+                                    </div>
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="alarm-outline"></ion-icon>
+                                        <p>6AM - 8AM  |  5PM-9PM</p>
+                                    </div>
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="people-outline"></ion-icon>
+                                        <p>Clases de 15 personas</p>
+                                    </div>
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="happy-outline"></ion-icon>
+                                        <p>Solo teens: 3PM - 5PM</p>
+                                    </div>
+                                    <div class="detail">
+                                        <ion-icon class="icon" name="woman-outline"></ion-icon>
+                                        <p>Solo mujeres: 9AM - 11AM</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                            <div class="link-details-container">
+                                <button class="link-details">Ver más detalles</button>
+                            </div>
+                        </div>
+                    </div>
+
+                <!-- Product #2 -->
+                <div class="container plan">
+                    <div class="product grid--product">
+                            <!-- <img class="product-image" src="../recursos/prueba7.jpg"/> -->
+                        <div class="product-text">
+                            
+                            <h3 class="product-name">Shape+</h3>
+                            <div class="tags">
+                                <span class="tag tag--definicon">Definición</span>
+                                <span class="tag tag--fuerza">Fuerza</span>
+                            </div>
+                            <p class="product-highlight">Entrenamiento de functional bodybuilding, para las personas que buscan ganar masa muscular o definición. Aquí trabajarás músculos específicos de forma dinámica y fluida en una serie de estaciones. 
+                            <div class="product-details">
+                                <div class="detail">
+                                    <ion-icon class="icon" name="calendar-clear-outline"></ion-icon>
+                                    <p>Lunes a viernes</p>
+                                </div>
+                                <div class="detail">
+                                    <ion-icon class="icon" name="time-outline"></ion-icon>
+                                    <p>50-60 minutos</p>
+                                </div>
+                                <div class="detail">
+                                    <ion-icon class="icon" name="shuffle-outline"></ion-icon>
+                                    <p>Programación dinámica</p>
+                                </div>
+                                <div class="detail">
+                                    <ion-icon class="icon" name="alarm-outline"></ion-icon>
+                                    <p>6AM - 8AM  |  5PM-9PM</p>
+                                </div>
+                                <div class="detail">
+                                    <ion-icon class="icon" name="people-outline"></ion-icon>
+                                    <p>Clases de 7 personas</p>
+                                </div>
+                                <div class="detail">
+                                    <ion-icon class="icon" name="happy-outline"></ion-icon>
+                                    <p>Solo teens: 4PM</p>
+                                </div>
+                                <div class="detail">
+                                    <ion-icon class="icon" name="woman-outline"></ion-icon>
+                                    <p>Solo mujeres: 9AM - 11AM</p>
+                                </div>
+                            </div>                           
+                        </div>
+                        <div class="link-details-container hidden">
+                            <button class="link-details">Ver más detalles</button>
+                        </div>                       
+                    </div>
+                </div>
+
+            </div>
+            <!-- PRODUCT POP-UP -->
+            <div class="product-pop-up">
+                <div class="pop-up-header">
+                    <h3 class="product-name">Fit60</h3>
+                    <button class="btn--close-details">
+                        <ion-icon class="close-details" name="close-outline"></ion-icon>
+                    </button>
+                    
+                </div>
+                
+                <p class="pop-up-description">Fit60 es nuestro protocolo más completo, y es fácilmente adaptable a las distintas necesidades y preferencias de cada cliente con sus 3 variaciones:</p>
+                <div class="program-variant">
+                    <p class="program-variant-title">BodyWeight</p>
+                    <p class="program-variant-description">Trabajarás todo tu cuerpo sin nada más que tu peso corporal. Ideal para comenzar o retomar la actividad física de una manera segura y progresiva, pero muy efectiva. </p>
+                </div>
+                <div class="program-variant">
+                    <p class="program-variant-title">Minimal</p>
+                    <p class="program-variant-description">Nuestro entrenamiento de mayor versatilidad, ideal para la gran mayoría de clientes que buscan mejorar su condición física. Utilizarás mancuernas, kettlebells, balón medicinal, entre otros implementos. 
+                    </p>
+                </div>
+                <div class="program-variant">
+                    <p class="program-variant-title">RXD</p>
+                    <p class="program-variant-description">Si eres de los que les encanta entrenar con una mayor dificultad utilizando todos nuestros equipos, esta opción es para ti. Incluye los distintos levantamientos olímpicos.  
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+            
+
+        <!-- PRICING SECTION -->
+        <section class="pricing-section" id="pricing-section">
+            
+            <h2 class="heading-secondary border-left">Nuestros planes</h2>
+            <div class="pricing-container pricing-plans grid-pricing-plan">
+
+                <!-- Starter pass -->
+                <div class="pricing-plan pricing-plan--regular">
+                    <header class="plan-header">
+                        <p class="plan-name">FITSENS 12</p>
+                        <div class="plan-text-container">
+                            <p class="plan-text">12 clases al mes</p>
+                        </div>  
+                    </header>
+                        <div class="plan-price-individual">
+                            <p class="plan-price--name">Fit60</p>
+                            <div>
+                                <p class="plan-price--price">$125</p>
+                            </div>
+                        </div>
+                        <div class="plan-price-individual">
+                            <p class="plan-price--name">Shape+</p>
+                            <div>
+                                <p class="plan-price--price">$145</p>
+                            </div>
+                        </div>
+                        <div class="plan-price-individual hidden">
+                            <p class="plan-price--name">Fit60 & Shape+</p>
+                            <div>
+                                <p class="plan-price--price">$155</p>
+                            </div>
+                        </div>
+                   
+                </div>
+
+                <!-- Fitsens+ plan -->
+                <div class="pricing-plan pricing-plan--highlight">
+                    <header class="plan-header">
+                        <p class="plan-name">FITSENS+</p>
+                        <div class="plan-text-container">
+                            <p class="plan-text">24 clases al mes</p>
+                        </div>  
+                    </header>
+                        <div class="plan-price-individual">
+                            <p class="plan-price--name">Fit60</p>
+                            <div>
+                                <p class="plan-price--price">$165</p>
+                            </div>
+                        </div>
+                        <div class="plan-price-individual">
+                            <p class="plan-price--name">Shape+</p>
+                            <div>
+                                <p class="plan-price--price">$185</p>
+                            </div>
+                        </div>
+                        <div class="plan-price-individual">
+                            <p class="plan-price--name">Fit60 & Shape+</p>
+                            <div>
+                                <p class="plan-price--price">$175</p>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <!-- Unlimited plan -->
+                <div class="pricing-plan pricing-plan--regular">
+                    <header class="plan-header">
+                        <p class="plan-name">FITSENS UNLIMITED</p>
+                        <div class="plan-text-container">
+                            <p class="plan-text">Sin límites</p>
+                        </div>                       
+                    </header>
+                        <div class="plan-price-individual">
+                            <p class="plan-price--name">Fit60 & Shape+</p>
+                            <div>
+                                <p class="plan-price--price">$250</p>
+                            </div>
+                        </div>
+                        <div class="plan-price-individual hidden">
+                            <p class="plan-price--name">Fit60</p>
+                            <div>
+                                <p class="plan-price--price">$165</p>
+                            </div>
+                        </div>
+                        <div class="plan-price-individual hidden">
+                            <p class="plan-price--name">Shape+</p>
+                            <div>
+                                <p class="plan-price--price">$185</p>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+            </div>
+            <div class="container free-trial-container">
+                <p class="free-trial">Precios no incluyen IVA. </p>
+                <p class="free-trial">Escríbenos para realizar una prueba gratuita.</p>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact-section">
+            <div class="container-cta">
+                <div class="cta-box">
+                    <div class="cta-image-box">
+                        
+                    </div>
+
+                    <div class="cta-text-box">
+                        <div class="cta-option main">
+                            <p class="cta-option-title">Contáctanos</p>
+                            <p class="cta-option-text">Visítanos o escríbenos para conocer más sobre nuestros planes.</p>
+                            <div class="btn-contact-container">
+                                <a target="_blank" href="https://wa.me/593963762246" class="btn-contact">
+                                    <span><ion-icon class="whatsapp-icon" name="logo-whatsapp"></ion-icon></span>
+                                    Whatsapp
+                                </a>
+
+                                <a href="tel:0997524990" class="btn-contact-secondary">
+                                    <span><ion-icon class="call-icon" name="call-outline"></ion-icon></span>
+                                    Llámanos
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cta-option">
+                            <p class="cta-option-title">Visítanos</p>
+                                <p class="cta-option-text">Vía Samborondón km 2.5, frente a Plaza Nova.</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container grid--footer margin-top-md footer">
+                <img class="logo" src="../recursos/logos/logo1.png" >
+                <p class="cta-option-text">Vía Samborondón km 2.5, frente a Plaza Nova.</p>
+                <div class="social">
+                    <a href="https://instagram.com/fitsens.studio?igshid=YmMyMTA2M2Y=" ><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+                    <a href="https://wa.me/593963762246" ><ion-icon class="icon" name="logo-whatsapp"></ion-icon></a>
+                </div>
+                
+            </div>
+        </footer>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+</body>
+</html>
